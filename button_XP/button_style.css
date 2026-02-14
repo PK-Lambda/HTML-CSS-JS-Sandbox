@@ -1,0 +1,104 @@
+html, body {
+    min-height: 100vh;
+    font-family: Arial , Georgia, 'Times New Roman', Times, serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Main Box Style */
+
+.errorContainer {
+    padding: 3.5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: rgb(21, 97, 228);
+    border-radius: 3.5px;
+
+}
+
+/* Top Bar of an Error */
+
+.closeErrorTopBar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2px;
+}
+
+.titleErrorMessage {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    padding-left: 5px;
+    font-size: 14px;
+}
+
+.errorClose {
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(187, 54, 54);
+    border: 0.5px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-radius: 2px;
+}
+
+/* Main Content of an Error */
+
+.mainContent {
+    background-color: rgb(230, 226, 217);
+    padding: 10px 0px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 10px 5px;
+    justify-content: space-around;
+}
+
+.xSimbol {
+    padding-left: 5px;
+    background-color: rgb(187, 30, 30);
+    color: aliceblue;
+    margin-left: 3px;
+    padding: 7px;
+    height: 18px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+
+.mainErrorMessage {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+/* Button Style */
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.buttonAccept {
+    font-size: 12px;
+    padding: 2px 30px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
